@@ -16,12 +16,9 @@ class Voiture implements Vehicule {
         this.model = model;
         this.year = year;
     }
-
-    start(): void {
+ start(): void {
         console.log("Car engine started");
     }
 }
-
 const maVoiture = new Voiture("Toyota", "Corolla", 2022);
-
 maVoiture.start();
